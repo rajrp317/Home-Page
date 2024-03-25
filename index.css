@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    background-color: gainsboro;
+}
+
+.left{
+    display: flex;
+}
+
+.left h3{
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+.middle{
+    margin: 7px 0px;
+}
+
+.middle span{
+    margin: 0px 10px;
+}
+
+.right button{
+    border: none;
+    margin: 0px 10px;
+    font-size: large;
+}
+
+#login{
+    background-color: gainsboro;
+    color: green;
+}
+
+#signup{
+    color: white;
+    background-color: rgb(2, 156, 2);
+    padding: 7px 15px;
+    border-radius: 5px;
+
+}
+
+#h-logo{
+    height: 25px;
+    width: 35px;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    background-color: gainsboro;
+}
+
+.ssleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ssleft h1{
+    font-size: xxx-large;
+}
+
+b{
+    color: green;
+}
+
+.ssleft button{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: green;
+}
+
+.ssright img{
+    height: 300px;
+    width: 300px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.client div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.client div img{
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+}
+
+.suitable{
+    text-align: center;
+    margin: 80px 0px;
+    padding: 20px 0px;
+    background-color: gainsboro;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.box img{
+    height: 55px;
+    width: 55px;
+    margin: 10px 0px;
+}
+
+.box h3{
+    margin: 5px 0px;
+}
+
+.slideshow2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slideshow2 img{
+    height: 300px;
+    width: 300px;
+}
+
+.slideshow2 div{
+    padding: 10px;
+    width: 600px;
+}
+
+#Learn{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    padding: 30px 0px;
+    background-color: gainsboro;
+}
+
+.statistics p{
+    font-size: small;
+    color: gray;
+}
+
+#business{
+    color: green;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.content{
+    display: flex;
+    margin: 10px;
+}
+
+.content div{
+    padding-left: 10px;
+}
+
+.content img{
+    height: 35px;
+    width: 35px;
+}
+
+.customers{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    padding: 20px 0px;
+    color: grey;
+}
+
+.customers img{
+    height: 300px;
+    width: 300px;
+}
+
+.customers div{ 
+    width: 500px;
+    padding: 20px 0px;
+    font-size: small;
+}
+
+.customers-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customers-logo img{
+    margin: 10px 0px;
+    height: 40px;
+    width: 40px;
+}
+
+.marketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.text{
+    width: 400px;
+}
+
+.text p{
+    color: gray;
+    font-size: small;
+}
+
+.b1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 130px;
+    width: 100%;
+}
+
+.b1 div{
+    width: 200px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.demo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 30px 0px;
+}
+
+.demo button{
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    background-color: green;
+}
+
+.demo div{
+    width: 350px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(2, 2, 31);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.f1 span{
+    margin: 10px 0px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.f1 h2{
+    margin: 5px 0px;
+}
+
+
+.f1 p{
+    margin: 5px 0px;
+    color: gray;
+}
+
+.f1 input{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(75, 73, 73);
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+
+.image{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.image h3{
+    padding-left: 10px;
+}
+#f-logo{
+    height: 25px;
+    width: 35px;
+}
